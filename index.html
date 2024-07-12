@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Ordin Project</title>
+    <link rel="shortcut icon" href="images/odin-lined.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   <main>
+    <div id="left">
+        <section>
+            <img src="images/odin-lined.png" alt="" >
+            <h1>ODIN</h1>
+        </section>
+        <img src="images/picture.jpg" alt="image" >
+    </div>
+    <div id="right">
+        <div id="quote">
+            This is not a real online service! You know you need something<br>
+            like this in your life to help you realize your deepest dreams.<br><br>
+            Sign up now to get started.
+
+            You <span style="font-style:italic;">know</span> you want to.
+        </div>
+
+        <form action="">
+            <div class="form">
+                <h2>Lets do this!</h2>
+
+            <fieldset>
+                <label  for="first-name">
+                    First Name
+                </label>
+                <input placeholder="Ordin" type="text" required id="first-name">
+            </fieldset>
+            <fieldset>
+                <label for="last-name" >Last Name</label>
+                <input type="text" required id="last-name">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </fieldset>
+            <fieldset>
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" required id="phone-number" >
+            </fieldset>
+            <fieldset>
+                <label for="password">Password</label>
+                <input type="password" required id="password">
+            </fieldset>
+            <fieldset>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password">
+            </fieldset>
+            </div>
+            <div id="create-div">
+                <button type="submit" onclick="validate()">
+                    Create Account
+                </button>
+                <p>Already have an account ? <a href="http://">Login</a></p>
+            </div>
+        </form>
+        
+    </div>
     
+   </main> 
+   <script>
+        function validate(){
+            
+        }
+   </script>
 </body>
 </html>
