@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    min-width: 1200px;
     margin: 0;
     padding: 0;
 }
@@ -24,13 +25,13 @@ section > h1{
 }
 #left > img{
     height: 100vh;
-    width: 400px;
+    width: 450px;
 }
 section{
     text-align: center;
     padding-top: 15px;
     position: absolute;
-    width: 400px;
+    width: 450px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     top: 30%;
@@ -52,7 +53,8 @@ section > img{
 }
 
 .form{
-    
+
+    margin: auto;
     padding: 20px;
 }
 label{
